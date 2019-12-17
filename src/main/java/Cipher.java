@@ -20,3 +20,6 @@ public class Cipher {
                 encrypted.setCharAt(i, newChar);
             }
         }
+        return encrypted.toString();
+    }
+}
